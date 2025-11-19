@@ -18,30 +18,30 @@ Vehicle Detection: Faster R-CNN for accurate pre-detection of vehicles and light
 
 ## 📁 Project Structure
 
-.
-├── configs/                 # Configuration files  
-├── data/                    # Dataset directory  
-│   ├── raw/                 # Raw PVDN dataset  
-│   ├── processed/           # COCO format annotations  
-│   └── synthetic_rain/      # Generated rain datasets   
+.  
+├── configs/                               # Configuration files  
+├── data/                                  # Dataset directory  
+│   ├── raw/                               # Raw PVDN dataset  
+│   ├── processed/                         # COCO format annotations  
+│   └── synthetic_rain/                    # Generated rain datasets   
 ├── src/  
-│   ├── data_preparation/    # Dataset processing scripts  
+│   ├── data_preparation/                  # Dataset processing scripts  
 │   │   ├── dataset.py  
 │   │   ├── prepare_coco_dataset.py  
 │   │   └── generate_synthetic_rain.py  
 │   ├── models/  
-│   │   ├── denoising/       # DnCNN, U-Net, Enhanced U-Net, etc.  
-│   │   └── detection/       # Faster R-CNN  
-│   ├── training/            # Training scripts  
-│   │   ├── train_enhanced_unet.py  
+│   │   ├── denoising/                     # DnCNN, U-Net, Enhanced U-Net, etc.  
+|   │   └── detection/                     # Faster R-CNN  
+|   ├── training/                          # Training scripts  
+|   ├── train_enhanced_unet.py  
 │   │   └── train_faster_rcnn.py  
-│   ├── inference/           # Inference scripts  
+│   ├── inference/                         # Inference scripts  
 │   │   ├── denoise_image.py  
 │   │   ├── detect_vehicles.py  
 │   │   └── pipeline.py  
-│   └── utils/               # Metrics, losses, visualization  
-├── models/saved_models/     # Trained model checkpoints  
-├── results/                 # Output results  
+│   └── utils/                             # Metrics, losses, visualization  
+├── models/saved_models/                   # Trained model checkpoints  
+├── results/                               # Output results  
 └── requirements.txt  
 
 ## 🚀 Installation
