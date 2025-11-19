@@ -10,10 +10,10 @@ Vehicle Detection: Faster R-CNN for accurate pre-detection of vehicles and light
 
 ## Key Features
 
-🌧️ Synthetic rain generation with realistic perspective effects
-🏗️ Multiple architectures: DnCNN, U-Net, Enhanced U-Net, ResDenoiser, SwinIR, Restormer
-🚗 Dual-class detection: Vehicles and individual light instances
-📊 Comprehensive metrics: PSNR, SSIM, mAP, Precision, Recall, F1-Score
+🌧️ Synthetic rain generation with realistic perspective effects  
+🏗️ Multiple architectures: DnCNN, U-Net, Enhanced U-Net, ResDenoiser, SwinIR, Restormer  
+🚗 Dual-class detection: Vehicles and individual light instances  
+📊 Comprehensive metrics: PSNR, SSIM, mAP, Precision, Recall, F1-Score  
 🔄 End-to-end pipeline: Seamless integration of denoising and detection
 
 ## 📁 Project Structure
