@@ -190,7 +190,22 @@ python src/inference/pipeline.py \
       <div style="font-weight:bold; margin-top:5px;">ResNet Denoiser</div>
     </td>
     <td style="text-align:center; vertical-align:top;">
-      <img width="260" alt="SwinIR" src="https://github.com/user-attachments/assets/77a0462f-1696-4171-92f0-a3d1e06f9a6f" /
+      <img width="260" alt="SwinIR" src="https://github.com/user-attachments/assets/77a0462f-1696-4171-92f0-a3d1e06f9a6f" />
+      <div style="font-weight:bold; margin-top:5px;">SwinIR</div>
+    </td>
+  </tr>
+  <!-- ROW 3 -->
+  <tr>
+    <td style="text-align:center; vertical-align:top;">
+      <img width="260" alt="Restormer" src="https://github.com/user-attachments/assets/a8bf3b4a-bd50-4436-a3b4-1fa82194644b" />
+      <div style="font-weight:bold; margin-top:5px;">Restormer</div>
+    </td>
+    <td style="text-align:center; vertical-align:top;">
+      <img width="300" alt="ProvRain" src="https://github.com/user-attachments/assets/6a72fa60-2561-43d0-8bff-1d6b56ef989d" />
+      <div style="font-weight:bold; margin-top:5px;">ProvRain (Ours)</div>
+    </td>
+  </tr>
+</table>
 
 #### Comparison against state-of-the-art rain removal models.
 
