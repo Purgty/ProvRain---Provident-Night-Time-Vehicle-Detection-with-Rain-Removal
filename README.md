@@ -17,7 +17,7 @@ Vehicle Detection: Faster R-CNN for accurate pre-detection of vehicles and light
 🔄 End-to-end pipeline: Seamless integration of denoising and detection
 
 ## 📁 Project Structure  
-
+```
 ├── configs/                 # Configuration files  
 ├── data/                    # Dataset directory  
 │   ├── raw/                 # Raw PVDN dataset  
@@ -43,7 +43,7 @@ Vehicle Detection: Faster R-CNN for accurate pre-detection of vehicles and light
 │   └── saved_models/        # Trained model checkpoints  
 ├── results/                 # Output results  
 └── requirements.txt  
-
+```
 ## 🚀 Installation
 
 ```bash
