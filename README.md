@@ -152,6 +152,28 @@ python src/inference/pipeline.py \
 
 ### Denoising Performance
 
+<table>
+  <tr>
+    <th rowspan="4" style="text-align:center;">Ground Truth<br>Image</th>
+    <th colspan="2" style="text-align:center;">Model Outputs</th>
+  </tr>
+
+  <tr>
+    <td style="text-align:center;"><img src="" width="160"><br>Output 1</td>
+    <td style="text-align:center;"><img src="" width="160"><br>Output 2</td>
+  </tr>
+
+  <tr>
+    <td style="text-align:center;"><img src="" width="160"><br>Output 3</td>
+    <td style="text-align:center;"><img src="" width="160"><br>Output 4</td>
+  </tr>
+
+  <tr>
+    <td style="text-align:center;"><img src="" width="160"><br>Output 5</td>
+    <td style="text-align:center;"><img src="" width="160"><br>Output 6</td>
+  </tr>
+</table>
+
 #### Comparison against state-of-the-art rain removal models.
 
 | Metric      | SwinIR  | Restormer | ProvRain Denoiser (Ours) |
