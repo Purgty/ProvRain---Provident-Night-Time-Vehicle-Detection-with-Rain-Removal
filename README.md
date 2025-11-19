@@ -153,53 +153,57 @@ python src/inference/pipeline.py \
 ### Denoising Performance
 
 <table>
+  <!-- ROW 1: Header -->
   <tr>
-    <th rowspan="4" style="text-align:center; vertical-align:middle;">
+    <th style="width:260px;"></th>
+    <th colspan="3" style="text-align:center; font-size:18px;">Model Outputs</th>
+  </tr>
+
+  <!-- ROW 2 -->
+  <tr>
+    <!-- LEFT COLUMN spanning both rows (no dividing line) -->
+    <td rowspan="2" style="text-align:center; vertical-align:middle;">
       <div>
         <img width="220" alt="Rainy Input" src="https://github.com/user-attachments/assets/91a7994a-701c-4c55-9616-1425d0e77328" />
         <div style="font-weight:bold; margin-top:5px;">Rainy Input</div>
       </div>
-      <div style="margin-top:15px;">
+      <div style="margin-top:20px;">
         <img width="220" alt="Ground Truth" src="https://github.com/user-attachments/assets/5eca9976-7bdf-4dd4-be9e-5b42f03a970f" />
         <div style="font-weight:bold; margin-top:5px;">Ground Truth</div>
       </div>
-    </th>
-    <th colspan="2" style="text-align:center; font-size:16px;">Model Outputs</th>
-  </tr>
-
-  <tr>
-    <td style="text-align:center; vertical-align:top;">
-      <img width="220" alt="DnCNN" src="https://github.com/user-attachments/assets/b01121a8-cabf-40bb-bdcb-ffba5693a4fc" />
-      <div style="font-weight:bold; margin-top:5px;">Denoising CNN (DnCNN)</div>
     </td>
-    <td style="text-align:center; vertical-align:top;">
-      <img width="220" alt="U-Net" src="https://github.com/user-attachments/assets/35c64f60-bb06-4987-a056-2aaffc1673c4" />
+    <!-- ROW 2 RIGHT SIDE -->
+    <td style="text-align:center;">
+      <img width="200" src="https://github.com/user-attachments/assets/b01121a8-cabf-40bb-bdcb-ffba5693a4fc" />
+      <div style="font-weight:bold; margin-top:5px;">DnCNN</div>
+    </td>
+    <td style="text-align:center;">
+      <img width="200" src="https://github.com/user-attachments/assets/35c64f60-bb06-4987-a056-2aaffc1673c4" />
       <div style="font-weight:bold; margin-top:5px;">Basic U-Net</div>
     </td>
-  </tr>
-
-  <tr>
-    <td style="text-align:center; vertical-align:top;">
-      <img width="220" alt="ResNet" src="https://github.com/user-attachments/assets/80ba1315-0dd8-4aa1-b85b-9247404862ea" />
-      <div style="font-weight:bold; margin-top:5px;">ResNet Denoiser</div>
-    </td>
-    <td style="text-align:center; vertical-align:top;">
-      <img width="200" alt="SwinIR" src="https://github.com/user-attachments/assets/77a0462f-1696-4171-92f0-a3d1e06f9a6f" />
-      <div style="font-weight:bold; margin-top:5px;">SwinIR</div>
-    </td>
-  </tr>
-
-  <tr>
-    <td style="text-align:center; vertical-align:top;">
-      <img width="200" alt="Restormer" src="https://github.com/user-attachments/assets/a8bf3b4a-bd50-4436-a3b4-1fa82194644b" />
+    <td style="text-align:center;">
+      <img width="200" src="https://github.com/user-attachments/assets/a8bf3b4a-bd50-4436-a3b4-1fa82194644b" />
       <div style="font-weight:bold; margin-top:5px;">Restormer</div>
     </td>
-    <td style="text-align:center; vertical-align:top;">
-      <img width="220" alt="ProvRain" src="https://github.com/user-attachments/assets/6a72fa60-2561-43d0-8bff-1d6b56ef989d" />
+  </tr>
+  <!-- ROW 3 -->
+  <tr>
+    <!-- ROW 3 RIGHT SIDE -->
+    <td style="text-align:center;">
+      <img width="200" src="https://github.com/user-attachments/assets/80ba1315-0dd8-4aa1-b85b-9247404862ea" />
+      <div style="font-weight:bold; margin-top:5px;">ResNet Denoiser</div>
+    </td>
+    <td style="text-align:center;">
+      <img width="200" src="https://github.com/user-attachments/assets/77a0462f-1696-4171-92f0-a3d1e06f9a6f" />
+      <div style="font-weight:bold; margin-top:5px;">SwinIR</div>
+    </td>
+    <td style="text-align:center;">
+      <img width="200" src="https://github.com/user-attachments/assets/6a72fa60-2561-43d0-8bff-1d6b56ef989d" />
       <div style="font-weight:bold; margin-top:5px;">ProvRain (Ours)</div>
     </td>
   </tr>
 </table>
+
 
 #### Comparison against state-of-the-art rain removal models.
 
