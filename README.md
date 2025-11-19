@@ -154,54 +154,48 @@ python src/inference/pipeline.py \
 
 <table>
   <tr>
-    <!-- Left column containing BOTH images vertically -->
     <th rowspan="4" style="text-align:center; vertical-align:middle;">
-      <!-- Rainy Input -->
-      <div style="margin-bottom: 20px;">
-        <img width="300" alt="Rainy Input" 
-             src="https://github.com/user-attachments/assets/91a7994a-701c-4c55-9616-1425d0e77328" />
+      <div>
+        <img width="220" alt="Rainy Input" src="https://github.com/user-attachments/assets/91a7994a-701c-4c55-9616-1425d0e77328" />
         <div style="font-weight:bold; margin-top:5px;">Rainy Input</div>
       </div>
-      <!-- Ground Truth -->
-      <div>
-        <img width="300" alt="Ground Truth" 
-             src="https://github.com/user-attachments/assets/5eca9976-7bdf-4dd4-be9e-5b42f03a970f" />
+      <div style="margin-top:15px;">
+        <img width="220" alt="Ground Truth" src="https://github.com/user-attachments/assets/5eca9976-7bdf-4dd4-be9e-5b42f03a970f" />
         <div style="font-weight:bold; margin-top:5px;">Ground Truth</div>
       </div>
     </th>
-    <!-- Header for model outputs -->
     <th colspan="2" style="text-align:center; font-size:16px;">Model Outputs</th>
   </tr>
-  <!-- ROW 1 -->
+
   <tr>
     <td style="text-align:center; vertical-align:top;">
-      <img width="285" alt="DnCNN" src="https://github.com/user-attachments/assets/b01121a8-cabf-40bb-bdcb-ffba5693a4fc" />
+      <img width="220" alt="DnCNN" src="https://github.com/user-attachments/assets/b01121a8-cabf-40bb-bdcb-ffba5693a4fc" />
       <div style="font-weight:bold; margin-top:5px;">Denoising CNN (DnCNN)</div>
     </td>
     <td style="text-align:center; vertical-align:top;">
-      <img width="285" alt="U-Net" src="https://github.com/user-attachments/assets/35c64f60-bb06-4987-a056-2aaffc1673c4" />
+      <img width="220" alt="U-Net" src="https://github.com/user-attachments/assets/35c64f60-bb06-4987-a056-2aaffc1673c4" />
       <div style="font-weight:bold; margin-top:5px;">Basic U-Net</div>
     </td>
   </tr>
-  <!-- ROW 2 -->
+
   <tr>
     <td style="text-align:center; vertical-align:top;">
-      <img width="285" alt="ResNet" src="https://github.com/user-attachments/assets/80ba1315-0dd8-4aa1-b85b-9247404862ea" />
+      <img width="220" alt="ResNet" src="https://github.com/user-attachments/assets/80ba1315-0dd8-4aa1-b85b-9247404862ea" />
       <div style="font-weight:bold; margin-top:5px;">ResNet Denoiser</div>
     </td>
     <td style="text-align:center; vertical-align:top;">
-      <img width="260" alt="SwinIR" src="https://github.com/user-attachments/assets/77a0462f-1696-4171-92f0-a3d1e06f9a6f" />
+      <img width="200" alt="SwinIR" src="https://github.com/user-attachments/assets/77a0462f-1696-4171-92f0-a3d1e06f9a6f" />
       <div style="font-weight:bold; margin-top:5px;">SwinIR</div>
     </td>
   </tr>
-  <!-- ROW 3 -->
+
   <tr>
     <td style="text-align:center; vertical-align:top;">
-      <img width="260" alt="Restormer" src="https://github.com/user-attachments/assets/a8bf3b4a-bd50-4436-a3b4-1fa82194644b" />
+      <img width="200" alt="Restormer" src="https://github.com/user-attachments/assets/a8bf3b4a-bd50-4436-a3b4-1fa82194644b" />
       <div style="font-weight:bold; margin-top:5px;">Restormer</div>
     </td>
     <td style="text-align:center; vertical-align:top;">
-      <img width="300" alt="ProvRain" src="https://github.com/user-attachments/assets/6a72fa60-2561-43d0-8bff-1d6b56ef989d" />
+      <img width="220" alt="ProvRain" src="https://github.com/user-attachments/assets/6a72fa60-2561-43d0-8bff-1d6b56ef989d" />
       <div style="font-weight:bold; margin-top:5px;">ProvRain (Ours)</div>
     </td>
   </tr>
