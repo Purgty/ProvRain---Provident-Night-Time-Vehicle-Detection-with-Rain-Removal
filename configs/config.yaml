@@ -1,0 +1,57 @@
+# Model Configuration
+model:
+  denoiser:
+    type: "enhanced_unet"
+    features: 64
+    num_layers: 17
+  
+  detector:
+    type: "faster_rcnn"
+    num_classes: 3
+    pretrained: true
+
+# Training Configuration
+training:
+  denoiser:
+    epochs: 50
+    batch_size: 8
+    learning_rate: 0.0001
+    weight_decay: 0.0001
+    
+  detector:
+    epochs: 20
+    batch_size: 4
+    learning_rate: 0.005
+    momentum: 0.9
+    weight_decay: 0.0005
+
+# Dataset Configuration
+dataset:
+  pvdn_root: "data/raw/PVDN"
+  processed_root: "data/processed"
+  synthetic_rain_root: "data/synthetic_rain"
+  
+  coco_preparation:
+    box_px: 32
+    sample_ratio: 0.1
+  
+  rain_generation:
+    num_streaks: 1500
+    perspective_strength: 0.15
+    max_thickness: 2
+    intensity: 220
+    blur_kernel_size: 3
+    sample_fraction: 1.0
+    val_split: 0.1
+
+# Inference Configuration
+inference:
+  score_threshold: 0.5
+  iou_threshold: 0.5
+  device: "cuda"
+
+# Paths
+paths:
+  models_dir: "models/saved_models"
+  results_dir: "results"
+  logs_dir: "logs"
