@@ -154,25 +154,33 @@ python src/inference/pipeline.py \
 
 <table>
   <tr>
-    <th rowspan="4" style="text-align:center;">Ground Truth<br>Image</th>
+    <th rowspan="4" style="text-align:center;"><img width="304" height="304" alt="Image" src="https://github.com/user-attachments/assets/91a7994a-701c-4c55-9616-1425d0e77328" />Rainy<br>Input<br>Image</th>
+    <th rowspan="4" style="text-align:center;"><img width="304" height="304" alt="image" src="https://github.com/user-attachments/assets/5eca9976-7bdf-4dd4-be9e-5b42f03a970f" />
+Ground<br>Truth<br>Image</th>
     <th colspan="2" style="text-align:center;">Model Outputs</th>
   </tr>
 
   <tr>
-    <td style="text-align:center;"><img src="" width="160"><br>Output 1</td>
-    <td style="text-align:center;"><img src="" width="160"><br>Output 2</td>
+    <td style="text-align:center;"><img width="285" height="283" alt="image" src="https://github.com/user-attachments/assets/b01121a8-cabf-40bb-bdcb-ffba5693a4fc" />
+<br>Denoising CNN (DnCNN)</td>
+    <td style="text-align:center;"><img width="285" height="283" alt="image" src="https://github.com/user-attachments/assets/35c64f60-bb06-4987-a056-2aaffc1673c4" />
+<br>Basic UNET</td>
   </tr>
 
   <tr>
-    <td style="text-align:center;"><img src="" width="160"><br>Output 3</td>
-    <td style="text-align:center;"><img src="" width="160"><br>Output 4</td>
+    <td style="text-align:center;"><img width="285" height="283" alt="image" src="https://github.com/user-attachments/assets/80ba1315-0dd8-4aa1-b85b-9247404862ea" />
+<br>ResNet Denoiser</td>
+    <td style="text-align:center;"><img width="250" height="250" alt="image" src="https://github.com/user-attachments/assets/a8bf3b4a-bd50-4436-a3b4-1fa82194644b" />
+<br>SwinIR</td>
   </tr>
 
   <tr>
-    <td style="text-align:center;"><img src="" width="160"><br>Output 5</td>
-    <td style="text-align:center;"><img src="" width="160"><br>Output 6</td>
+    <td style="text-align:center;"><img src="" width="160"><br>Restormer</td>
+    <td style="text-align:center;"><img width="304" height="307" alt="image" src="https://github.com/user-attachments/assets/6a72fa60-2561-43d0-8bff-1d6b56ef989d" />
+<br>ProvRain(Ours)</td>
   </tr>
 </table>
+
 
 #### Comparison against state-of-the-art rain removal models.
 
