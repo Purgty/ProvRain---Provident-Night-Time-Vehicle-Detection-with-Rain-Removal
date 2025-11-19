@@ -170,12 +170,12 @@ Ground<br>Truth<br>Image</th>
   <tr>
     <td style="text-align:center;"><img width="285" height="283" alt="image" src="https://github.com/user-attachments/assets/80ba1315-0dd8-4aa1-b85b-9247404862ea" />
 <br>ResNet Denoiser</td>
-    <td style="text-align:center;"><img width="250" height="250" alt="image" src="https://github.com/user-attachments/assets/a8bf3b4a-bd50-4436-a3b4-1fa82194644b" />
+    <td style="text-align:center;"><img width="248" height="251" alt="image" src="https://github.com/user-attachments/assets/77a0462f-1696-4171-92f0-a3d1e06f9a6f" />
 <br>SwinIR</td>
   </tr>
 
   <tr>
-    <td style="text-align:center;"><img src="" width="160"><br>Restormer</td>
+    <td style="text-align:center;"><img src="" width="160"><img width="250" height="250" alt="image" src="https://github.com/user-attachments/assets/a8bf3b4a-bd50-4436-a3b4-1fa82194644b" /><br>Restormer</td>
     <td style="text-align:center;"><img width="304" height="307" alt="image" src="https://github.com/user-attachments/assets/6a72fa60-2561-43d0-8bff-1d6b56ef989d" />
 <br>ProvRain(Ours)</td>
   </tr>
