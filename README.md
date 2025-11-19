@@ -154,32 +154,52 @@ python src/inference/pipeline.py \
 
 <table>
   <tr>
-    <th rowspan="4" style="text-align:center;"><img width="304" height="304" alt="Image" src="https://github.com/user-attachments/assets/91a7994a-701c-4c55-9616-1425d0e77328" />Rainy<br>Input<br>Image</th>
-    <th rowspan="4" style="text-align:center;"><img width="304" height="304" alt="image" src="https://github.com/user-attachments/assets/5eca9976-7bdf-4dd4-be9e-5b42f03a970f" />
-Ground<br>Truth<br>Image</th>
-    <th colspan="2" style="text-align:center;">Model Outputs</th>
+    <!-- Left column containing BOTH images vertically -->
+    <th rowspan="4" style="text-align:center; vertical-align:middle;">
+
+      <!-- Rainy Input -->
+      <div style="margin-bottom: 20px;">
+        <img width="300" alt="Rainy Input" 
+             src="https://github.com/user-attachments/assets/91a7994a-701c-4c55-9616-1425d0e77328" />
+        <div style="font-weight:bold; margin-top:5px;">Rainy Input</div>
+      </div>
+
+      <!-- Ground Truth -->
+      <div>
+        <img width="300" alt="Ground Truth" 
+             src="https://github.com/user-attachments/assets/5eca9976-7bdf-4dd4-be9e-5b42f03a970f" />
+        <div style="font-weight:bold; margin-top:5px;">Ground Truth</div>
+      </div>
+
+    </th>
+
+    <!-- Header for model outputs -->
+    <th colspan="2" style="text-align:center; font-size:16px;">Model Outputs</th>
   </tr>
 
+  <!-- ROW 1 -->
   <tr>
-    <td style="text-align:center;"><img width="285" height="283" alt="image" src="https://github.com/user-attachments/assets/b01121a8-cabf-40bb-bdcb-ffba5693a4fc" />
-<br>Denoising CNN (DnCNN)</td>
-    <td style="text-align:center;"><img width="285" height="283" alt="image" src="https://github.com/user-attachments/assets/35c64f60-bb06-4987-a056-2aaffc1673c4" />
-<br>Basic UNET</td>
+    <td style="text-align:center; vertical-align:top;">
+      <img width="285" alt="DnCNN" src="https://github.com/user-attachments/assets/b01121a8-cabf-40bb-bdcb-ffba5693a4fc" />
+      <div style="font-weight:bold; margin-top:5px;">Denoising CNN (DnCNN)</div>
+    </td>
+
+    <td style="text-align:center; vertical-align:top;">
+      <img width="285" alt="U-Net" src="https://github.com/user-attachments/assets/35c64f60-bb06-4987-a056-2aaffc1673c4" />
+      <div style="font-weight:bold; margin-top:5px;">Basic U-Net</div>
+    </td>
   </tr>
 
+  <!-- ROW 2 -->
   <tr>
-    <td style="text-align:center;"><img width="285" height="283" alt="image" src="https://github.com/user-attachments/assets/80ba1315-0dd8-4aa1-b85b-9247404862ea" />
-<br>ResNet Denoiser</td>
-    <td style="text-align:center;"><img width="248" height="251" alt="image" src="https://github.com/user-attachments/assets/77a0462f-1696-4171-92f0-a3d1e06f9a6f" />
-<br>SwinIR</td>
-  </tr>
+    <td style="text-align:center; vertical-align:top;">
+      <img width="285" alt="ResNet" src="https://github.com/user-attachments/assets/80ba1315-0dd8-4aa1-b85b-9247404862ea" />
+      <div style="font-weight:bold; margin-top:5px;">ResNet Denoiser</div>
+    </td>
 
-  <tr>
-    <td style="text-align:center;"><img src="" width="160"><img width="250" height="250" alt="image" src="https://github.com/user-attachments/assets/a8bf3b4a-bd50-4436-a3b4-1fa82194644b" /><br>Restormer</td>
-    <td style="text-align:center;"><img width="304" height="307" alt="image" src="https://github.com/user-attachments/assets/6a72fa60-2561-43d0-8bff-1d6b56ef989d" />
-<br>ProvRain(Ours)</td>
-  </tr>
-</table>
+    <td style="text-align:center; vertical-align:top;">
+      <img width="260" alt="SwinIR" src="https://github.com/user-attachments/assets/77a0462f-1696-4171-92f0-a3d1e06f9a6f" /
+
 
 
 #### Comparison against state-of-the-art rain removal models.
